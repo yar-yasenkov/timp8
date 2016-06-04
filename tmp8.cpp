@@ -65,10 +65,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	Base* arrA = new BaseA[n]; int kA = 0;
 	Base* arrB = new BaseB[n]; int kB = 0;
 	Base* arrC = new BaseC[n]; int kC = 0;
-	//ConcreteCreatorA CreatorA;
-	//ConcreteCreatorB CreatorB;
-	// An array of creators
-	//Creator*creators[] = { &CreatorA, &CreatorB };
 	while (n){
 		getline(cin, s);
 		if (!s.find("create")){
